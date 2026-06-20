@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.gradient-background {
+  background: linear-gradient(320deg,#ff4c68 ,#00bfff , #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.top-container {
+    position: relative;
+    padding-top: 50px;
+}
+
+.middle-container {
+    position: relative;
+    background-color: whitesmoke;
+}
+.id-photo {
+    border-radius: 50%;
+}
+
+.about-me {
+    font-family: Caveat, cursive;
+}
+
+.me {
+    font-weight: bold;
+    font-family: Papyrus, fantasy;
+}
+
+.thought-heading{
+    font-family: Palatino, URW Palladio L, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.thoughts {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.skills {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+
+}
+
+.get_in_touch {
+    color: #04041f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-size: 1rem;
+    color: #04041f;
+    font-family: "Montserrat", sans-serif;
+}
+
